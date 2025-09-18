@@ -57,6 +57,3 @@ This website represents web design practices from 2009, featuring:
 - Flash-era interactive design patterns
 - Personal storytelling through web media
 
-## License
-
-Personal project - all rights reserved to the original creators.
