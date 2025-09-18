@@ -1,0 +1,40 @@
+/*
+Site Name:		Akarjiwa - Dua Jiwa Jadi Satu
+Site URI:		http://akarjiwa.com
+Version:		1.0
+*/
+
+/* Reset Stylesheets */
+@import url("reset.css");
+
+body { background: #000; }
+#container { margin: 0 auto; width: 989px; }
+
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,td,th,caption,pre,p,blockquote,input,textarea { font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 18px; font-weight: normal; color: #d3cbbd; }
+.spacer { height: 1px; font-size: 1px; line-height: 1px; clear: both; }
+
+/* Page Structure
+----------------------------------------------- */
+#top { height: 601px; }
+#top-left { width: 505px; float: left; }
+#top-right { width: 484px; height: 601px; float: right; background: url(../images/bg-top-right.jpg) no-repeat; }
+#bottom { height: 97px; background: url(../images/bg-bottom-left.gif) no-repeat left; }
+
+/* Front Page Links
+----------------------------------------------- */
+#akar { display: block; margin: 11px 0 0 145px; width: 55px; height: 30px; text-indent: -9999px; }
+#jiwa-berkata { display: block; margin: 11px 0 0 305px; width: 115px; height: 30px; text-indent: -9999px; }
+#cerita-cinta { display: block; margin: 29px 0 0 106px; width: 114px; height: 30px; text-indent: -9999px; }
+#baliomega { display: block; margin: 92px 0 0 310px; width: 145px; height: 30px; text-indent: -9999px; } 
+#visual-statik { display: block; margin: 162px 0 0 145px; width: 115px; height: 30px; text-indent: -9999px; }
+#visual-gerak { display: block; margin: 80px 0 0 310px; width: 116px; height: 30px; text-indent: -9999px; }
+
+/* Cerita Cinta & Jiwa Berkata Page
+----------------------------------------------- */
+#box-cc { padding: 0 10px 10px 10px; background: url(../images/title-cc.gif) no-repeat bottom right; }
+#box-jb { padding: 0 10px 10px 10px; height: 480px; background: url(../images/title-jb.gif) no-repeat bottom right; }
+#box-jb ul,#box-jb p,#box-cc ul { padding: 20px 0 0; }
+#left { width: 400px; float: left; }
+#right { width: 400px; float: right; }
+.orange12 { color: #eb5937; }
+.green12 { color: #456f74; }
